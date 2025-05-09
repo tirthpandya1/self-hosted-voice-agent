@@ -1,0 +1,12 @@
+ollama
+chromadb
+sentence-transformers
+# For Indic Parler TTS
+git+https://github.com/huggingface/parler-tts.git
+transformers>=4.38.0  # Ensure a recent version
+soundfile             # For audio processing, used in parler-tts examples
+# For audio I/O
+sounddevice
+simpleaudio
+numpy
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
